@@ -76,6 +76,15 @@ export default function Home({ setActivePage }) {
         variants={itemVariants} 
         className="w-full text-center flex flex-col items-center gap-6 mt-8"
       >
+        <motion.div
+          whileHover={{ scale: 1.05, rotate: 1 }}
+          className="w-28 h-28 md:w-32 md:h-32 rounded-full p-1 bg-gradient-to-tr from-sjit-blue-600 to-sjit-blue-400 dark:from-sjit-gold-500 dark:to-sjit-gold-300 shadow-xl dark:shadow-[0_0_30px_rgba(251,191,36,0.25)] flex items-center justify-center mb-1"
+        >
+          <div className="w-full h-full rounded-full bg-white dark:bg-slate-950 p-2 flex items-center justify-center overflow-hidden">
+            <img src="/favicon.png" alt="SJIT Logo" className="w-full h-full object-contain" />
+          </div>
+        </motion.div>
+
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-slate-200/50 dark:border-slate-800/40 text-sjit-blue-700 dark:text-sjit-gold-400 text-xs md:text-sm font-semibold tracking-wider uppercase mb-2">
           <Sparkles className="w-4 h-4 animate-spin-slow" />
           Autonomous Academic Portal
@@ -117,8 +126,8 @@ export default function Home({ setActivePage }) {
         className="w-full glass-card rounded-3xl p-8 flex flex-col md:flex-row justify-between items-center gap-6"
       >
         <div className="flex items-center gap-4 text-left">
-          <div className="p-4 rounded-2xl bg-sjit-blue-50 dark:bg-slate-900 border border-sjit-blue-100 dark:border-slate-800 text-sjit-blue-700 dark:text-sjit-gold-400 flex-shrink-0">
-            <GraduationCap className="w-8 h-8" />
+          <div className="w-16 h-16 rounded-2xl bg-white dark:bg-slate-950 border border-slate-200/50 dark:border-slate-800 p-2 flex-shrink-0 flex items-center justify-center shadow-md">
+            <img src="/favicon.png" alt="SJIT Logo" className="w-full h-full object-contain" />
           </div>
           <div>
             <h3 className="font-bold text-lg text-slate-800 dark:text-slate-100">St. Joseph's Institute of Technology</h3>

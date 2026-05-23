@@ -40,8 +40,8 @@ export default function Navbar({ activePage, setActivePage }) {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Brand Logo */}
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => setActivePage('home')}>
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sjit-blue-700 to-sjit-blue-500 dark:from-sjit-gold-600 dark:to-sjit-gold-400 flex items-center justify-center shadow-lg transform hover:rotate-6 transition-transform">
-            <span className="text-white dark:text-slate-950 font-bold text-lg">SJ</span>
+          <div className="w-10 h-10 rounded-xl bg-white dark:bg-slate-950 border border-slate-200/50 dark:border-slate-800 p-1 flex items-center justify-center shadow-lg transform hover:rotate-6 transition-transform overflow-hidden">
+            <img src="/favicon.png" alt="SJIT Logo" className="w-full h-full object-contain" />
           </div>
           <div>
             <h1 className="text-md md:text-lg font-bold text-sjit-blue-700 dark:text-sjit-gold-400 tracking-tight leading-none">

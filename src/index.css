@@ -109,11 +109,11 @@
 
 /* Gradient mesh background */
 .mesh-bg {
-  background-color: #faf5ff;
+  background-color: #f8fafc;
   background-image: 
-    radial-gradient(at 0% 0%, rgba(245, 208, 254, 0.4) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, rgba(204, 251, 241, 0.4) 0px, transparent 50%),
-    radial-gradient(at 50% 100%, rgba(253, 244, 255, 0.4) 0px, transparent 50%);
+    radial-gradient(at 0% 0%, rgba(96, 165, 250, 0.2) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(147, 197, 253, 0.15) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(186, 224, 253, 0.2) 0px, transparent 50%);
 }
 
 .dark .mesh-bg {

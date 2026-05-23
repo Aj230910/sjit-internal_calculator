@@ -10,16 +10,16 @@ export default {
       colors: {
         sjit: {
           blue: {
-            50: '#fdf4ff',
-            100: '#fae8ff',
-            200: '#f5d0fe',
-            300: '#f0abfc',
-            400: '#c084fc',
-            500: '#a855f7',
-            600: '#8b5cf6',
-            700: '#6d28d9', // Primary brand color: Deep royal violet
-            800: '#4c1d95',
-            900: '#2e1065',
+            50: '#eff6ff',
+            100: '#dbeafe',
+            200: '#bfdbfe',
+            300: '#93c5fd',
+            400: '#60a5fa',
+            500: '#3b82f6',
+            600: '#2563eb',
+            700: '#1d4ed8', // Primary brand color: Royal Blue
+            800: '#1e40af',
+            900: '#1e3a8a',
           },
           gold: {
             50: '#fffbeb',
