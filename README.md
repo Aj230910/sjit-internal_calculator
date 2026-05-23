@@ -12,9 +12,6 @@ The application is built on React, styled with Tailwind CSS, and uses dynamic vi
 - **Minimum Passing Mark Forecast**: Calculates the exact score required in the Anna University Semester (External) Exam to pass the subject, depending on the compiled internal marks.
 - **Interactive Grade Simulator**: A real-time slider to test hypothetical internal mark values and preview the corresponding estimated final grades (O, A+, A, B+, B, RA).
 - **Marks Share Visualization**: An interactive pie chart powered by Recharts detailing weightage contributions from model exams and co-curricular assessments.
-- **PDF Report Generator**: Creates clean, download-ready PDF transcripts with student details, marks breakdown, and standing summaries via jsPDF.
-- **True Black & Gold Theme**: Sleek, glassmorphism-based styling with fluid animations (Framer Motion) and a customized black and gold theme in dark mode.
-
 ---
 
 ## Technical Stack
@@ -23,9 +20,6 @@ The application is built on React, styled with Tailwind CSS, and uses dynamic vi
 - **Styling**: Tailwind CSS (with custom brand palettes)
 - **Animations**: Framer Motion
 - **Charts**: Recharts
-- **PDF Export**: jsPDF
-- **Icons**: Lucide React
-- **Celebration Effect**: Canvas Confetti
 
 ---
 
